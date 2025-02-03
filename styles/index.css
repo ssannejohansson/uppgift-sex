@@ -218,3 +218,41 @@ outline:none;
 width:365px;
 
 }
+
+/* Fifth section */
+
+.fifth-container {
+display: flex;
+margin-top: 104px;
+max-width: 1110px;
+width: 100%;
+min-height: 609px;
+height: 100%;
+}
+
+.title-5 {
+    color:#2e281e;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:36px;
+    font-family:Poppins;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+    width:190px;
+}
+
+.info-5 {
+    color:#534836;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:16px;
+    font-family:Poppins;
+    line-height:26px;
+    border-style:hidden;
+    outline:none;
+    width:486px;
+}
+
+/* Footer /*
+
