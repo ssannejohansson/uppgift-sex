@@ -130,3 +130,57 @@ h5 {
     max-width:240px;
     width: 100%;
 }
+
+/* Third section */
+
+.third-container {
+    margin-top: 120px;
+    display: flex;
+    max-width: 1110px;
+    width: 100%;
+    min-height: 574px;
+    height: 100%;
+}
+
+.title-3 {
+    display: flex;
+    color:#2e281e;
+text-align:left;
+vertical-align:text-top;
+font-size:36px;
+font-family:Poppins;
+line-height:auto;
+border-style:hidden;
+outline:none;
+width:385px;
+
+}
+
+h6 {
+    color:#2e281e;
+text-align:left;
+vertical-align:text-top;
+font-size:16px;
+font-family:Poppins;
+font-weight: bold; 
+line-height:26px;
+border-style:hidden;
+outline:none;
+width:153px;
+}
+
+.info-3 {
+    display: flex;
+    color:#534836;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:16px;
+    font-family:Poppins;
+    line-height:26px;
+    border-style:hidden;
+    outline:none;
+    width:486px;
+}
+
+/* Fourth section */
+
