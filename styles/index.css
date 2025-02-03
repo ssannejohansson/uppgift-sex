@@ -184,3 +184,37 @@ width:153px;
 
 /* Fourth section */
 
+.fourth-container {
+margin-top: 101px;
+display: flex;
+max-width: 1121px;
+width: 100%;
+min-height: 521px;
+height: 100%;
+}
+
+.title-4 {
+    color:#2e281e;
+text-align:left;
+vertical-align:text-top;
+font-size:36px;
+font-family:Poppins;
+line-height:auto;
+border-style:hidden;
+outline:none;
+width:342px;
+
+}
+
+.info-4 {
+    color:#534836;
+text-align:left;
+vertical-align:text-top;
+font-size:16px;
+font-family:Poppins;
+line-height:26px;
+border-style:hidden;
+outline:none;
+width:365px;
+
+}
