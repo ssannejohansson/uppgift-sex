@@ -254,5 +254,28 @@ height: 100%;
     width:486px;
 }
 
-/* Footer /*
+/* Footer */
 
+.footer {
+display: flex;
+margin-top: 146px;
+padding-top: 102px; max-width: 1109px;
+width: 100%;
+min-height: 308px;
+height: 100%;
+border-top: 1px solid rgba(188, 208, 229, 0.49691325426101685);
+margin-bottom: 83px; 
+}
+
+
+.footer-list {
+    color:#534836;
+text-align:left;
+vertical-align:text-top;
+font-size:16px;
+font-family:Poppins;
+line-height:35px;
+border-style:hidden;
+outline:none;
+width:72px;
+}
