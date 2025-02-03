@@ -182,11 +182,15 @@ color: #775298;
 
 .second-container {
     display: flex;
-    margin-top: 110px;
+    justify-content: center;
+    align-content: center; 
     max-width: 1120px;
     width: 100%;
     min-height: 543px;
     height: 100%;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 90px;
 }
 
 .title-2 {
@@ -195,25 +199,69 @@ color: #775298;
     color:#2e281e;
     text-align:center;
     vertical-align:text-top;
+    font-family: "poppins", serif; 
     font-size:36px;
+    font-style: normal;
+    font-weight: bold; 
     line-height:auto;
-    border-style:hidden;
-    outline:none;
-    width:539px;
     margin-bottom: 54px;
 }
 
+
 h5 {
+    margin-top: 30px;
+    margin-bottom: 13px;
     color:#2e281e;
     text-align:left;
     vertical-align:text-top;
     font-size:22px;
-    font-family:Poppins;
+    font-family:"Poppins", serif;
+    font-style: normal;
+    font-weight: 600;
     line-height:auto;
-    border-style:hidden;
-    outline:none;
-    width:164px;
 
+}
+
+.fa-arrow-pointer {
+    text-align: center;
+    align-content: center;
+    background-color:#7752be;
+    color: #fff;
+    height:50px;
+    width:50px;
+    border-radius:19px;
+}
+
+.fa-stumbleupon {
+    text-align: center;
+    align-content: center;
+    background-color:#FAB005;
+    color: #fff;
+    height:50px;
+    width:50px;
+    border-radius:19px;
+
+}
+
+.fa-heart {
+    text-align: center;
+    align-content: center;
+    background-color:#F03E3D;
+    color: #fff;
+    height:50px;
+    width:50px;
+    border-radius:19px;
+
+}
+
+.fa-hourglass-half {
+    text-align: center;
+    align-content: center;
+    background-color:#4DADF7;
+    color: #fff;
+    height:50px;
+    width:50px;
+    border-radius:19px;
 }
 
 .info-2-container {
@@ -228,74 +276,101 @@ h5 {
     text-align:left;
     vertical-align:text-top;
     font-size:16px;
-    font-family:Poppins;
-    line-height:26px;
-    border-style:hidden;
-    outline:none;
-    max-width:240px;
+    font-family:"Poppins", serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    max-width: 240px;
     width: 100%;
+    gap: 45px;
+}
+
+.sign-up-now {
+    margin: auto;
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ff9900;
+    height:53px;
+    width:175px;
+    border-radius:4px;
+    border:0px solid #11b5e4;
+    color:#ffffff;
+    font-size:16px;
+    font-family:"poppins", serif;;
+    line-height:auto;
+}
+
+.sign-up-now:hover {
+    background-color: #775298;
+    color: #fff;
+
 }
 
 /* Third section */
 
 .third-container {
-    margin-top: 120px;
+    margin: auto;
     display: flex;
+    justify-content: space-around;
+    align-content: center; 
     max-width: 1110px;
     width: 100%;
     min-height: 574px;
     height: 100%;
+    margin-bottom: 101px;
 }
 
 .title-3 {
-    display: flex;
-    color:#2e281e;
+margin-top: 3px;
+margin-bottom: 22px;
+display: flex;
+color:#2e281e;
 text-align:left;
 vertical-align:text-top;
 font-size:36px;
-font-family:Poppins;
+font-family:"Poppins", serif;
+font-style: normal;
+font-weight: bold;
 line-height:auto;
-border-style:hidden;
-outline:none;
-width:385px;
-
 }
 
 h6 {
-    color:#2e281e;
+color:#2e281e;
 text-align:left;
 vertical-align:text-top;
 font-size:16px;
-font-family:Poppins;
+font-family:"poppins", serif;
+font-style: normal;
 font-weight: bold; 
 line-height:26px;
-border-style:hidden;
-outline:none;
-width:153px;
 }
 
 .info-3 {
     display: flex;
+    max-width: 486px;
+    width: 100%;
     color:#534836;
     text-align:left;
     vertical-align:text-top;
     font-size:16px;
     font-family:Poppins;
     line-height:26px;
-    border-style:hidden;
-    outline:none;
-    width:486px;
+    margin-bottom: 25px;
 }
 
 /* Fourth section */
 
 .fourth-container {
-margin-top: 101px;
-display: flex;
-max-width: 1121px;
-width: 100%;
-min-height: 521px;
-height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1121px;
+    width: 100%;
+    min-height: 521px;
+    height: 100%;
 }
 
 .title-4 {
@@ -303,14 +378,15 @@ height: 100%;
 text-align:left;
 vertical-align:text-top;
 font-size:36px;
-font-family:Poppins;
+font-family:"Poppins", serif;
+font-style: normal;
+font-weight: bold;
 line-height:auto;
-border-style:hidden;
-outline:none;
-width:342px;
-
 }
 
+.fa-check {
+    
+}
 .info-4 {
     color:#534836;
 text-align:left;
