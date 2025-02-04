@@ -292,10 +292,12 @@ h5 {
     height:53px;
     width:175px;
     border-radius:4px;
-    border:0px solid #11b5e4;
+    border-style: none;
     color:#ffffff;
     font-size:16px;
-    font-family:"poppins", serif;;
+    font-family:"poppins", serif;
+    font-style: normal;
+    font-weight: bold;
     line-height:auto;
 }
 
