@@ -498,15 +498,72 @@ border-top: 1px solid rgba(188, 208, 229, 0.49691325426101685);
 margin-bottom: 83px; 
 }
 
-
 .footer-list {
+    display: inline-block;
+    margin-left: 125px;
+    margin-right: 82px;
+    margin-top: 33px;
+    column-count: 2;
+    column-gap: 175px;
+
+}
+.footer-list li, .footer-list li a {
+    text-decoration: none; 
+    list-style: none; 
     color:#534836;
-text-align:left;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:16px;
+    font-family:"Poppins", serif;
+    line-height:35px;
+}
+
+.footer-list li a:hover {
+    color: #775298;
+}
+
+.footer-right {
+    margin: auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 21px;
+    max-width: 325px;
+    width: 100%;
+    min-height: 199px;
+    height: 100%;
+}
+
+.footer-rectangle {
+    display: flex;
+background-color:#ffffff;
+min-height:48px;
+height: 100%;
+max-width:325px;
+width: 100%;
+border:1px solid #bcd0e5;
+border-radius: 4px;
+}
+
+.sign-up-now-footer {
+background-color:#ff9900;
+color: #fff;
+min-height:39px;
+height: 100%;
+max-width:131px;
+width: 100%;
+border-radius:4px;
+border-style: none;
+text-align:center;
 vertical-align:text-top;
 font-size:16px;
-font-family:Poppins;
-line-height:35px;
-border-style:hidden;
-outline:none;
-width:72px;
+font-family:"Poppins", serif;
+font-style: normal;
+font-weight: bold; 
+line-height:auto;
+}
+
+.sign-up-now-footer:hover {
+    background-color: #775298;
+    color: #FFF;
 }
